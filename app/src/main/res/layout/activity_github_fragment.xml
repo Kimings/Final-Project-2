@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.team.GithubFragment"
+    app:cardBackgroundColor="@color/secondaryLightColor"
+    app:cardElevation="8dp"
+    app:contentPadding="15dp"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="19dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ewi Ayuni"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:id="@+id/githubEwi"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/github2"
+                android:layout_marginLeft="110dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="19dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fitria Nur Sa'adah"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:id="@+id/githubfifit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/github2"
+                android:layout_marginLeft="40dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="19dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rifqi Arifin Ilham"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:id="@+id/githubRifqi"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/github2"
+                android:layout_marginLeft="48dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

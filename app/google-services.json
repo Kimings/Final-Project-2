@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "39959826572",
+    "project_id": "tokoku-b3d67",
+    "storage_bucket": "tokoku-b3d67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39959826572:android:143dd244847923781beba9",
+        "android_client_info": {
+          "package_name": "com.hacktiv8.tokoku"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkEuC7jAKjZCWnyDYSQLKx9y7E_o_l-JM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39959826572:android:0211066e5b38b5cf1beba9",
+        "android_client_info": {
+          "package_name": "com.hacktive8.tokoku"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkEuC7jAKjZCWnyDYSQLKx9y7E_o_l-JM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
